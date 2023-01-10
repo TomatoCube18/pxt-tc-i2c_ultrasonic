@@ -1,6 +1,6 @@
 {
-    "name": "pxt-tc-i2c_ultrasonic",
-    "version": "0.1",
+    "name": "TC-I2C-Ultrasonic",
+    "version": "1.0",
     "description": "Makecode block for I2C Ultrasonic Sensor",
     "license": "MIT",
     "dependencies": {
@@ -8,8 +8,7 @@
     },
     "files": [
         "README.md",
-        "ULTRASONIC_I2C.ts",
-        "base.ts"
+        "i2c_ultrasonic.ts"
     ],
     "testFiles": [
         "test.ts"
