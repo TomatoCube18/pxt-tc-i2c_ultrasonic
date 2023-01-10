@@ -1,7 +1,7 @@
 /**
   * TC-MAKECODE-I2C-Ultrasonic Block
   */
-  //% color="#275C6B" icon="\uf07e" weight=95 block="I2C Ultrasonic"
+  //% color="#275C6B" icon="\uf140 weight=95 block="I2C Ultrasonic"
 namespace i2cUltrasonic {
     let ULTRASONIC_I2C_ADDR = 0x57 
     
