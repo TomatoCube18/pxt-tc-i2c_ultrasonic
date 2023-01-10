@@ -19,16 +19,11 @@ namespace i2cUltrasonic {
             NumberFormat.UInt8BE,
             false
         )
-        basic.pause(120)
+        basic.pause(200)
         let readbuf = pins.i2cReadBuffer(ULTRASONIC_I2C_ADDR, pins.sizeOf(NumberFormat.UInt8LE) * 3)
         
-        let distance = (readbuf[0] << 16) + (readbuf[1] << 8) + (readbuf[2] / 1000); 
-
-        if ((10 <= Math.round(distance)) && (6000 >= Math.round(distance))) {
-            return (Math.round(distance))
-        } else {
-            return -1
-        }
+        let distance = ((readbuf[0] << 16) + (readbuf[1] << 8) + readbuf[2]) / 1000 
+        return distance
         
     }
 }
