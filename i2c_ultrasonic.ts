@@ -1,7 +1,7 @@
 /**
   * TC-MAKECODE-I2C-Ultrasonic Block
   */
-  //% color="#275C6B" icon="\uf4db" weight=95 block="I2C Ultrasonic"
+  //% color="#275C6B" icon="\uf07e" weight=95 block="I2C Ultrasonic"
 namespace i2cUltrasonic {
     let ULTRASONIC_I2C_ADDR = 0x57 
     
@@ -9,7 +9,7 @@ namespace i2cUltrasonic {
     /**
      * Read Distance from Ultrasonic Sensor.
      */
-    //% blockId="ultrasonic_read_distance" block="Read distance(mm) from Ultrasonic Sensor. | TRIG (SCL) ECHO (SDA)"
+    //% blockId="ultrasonic_read_distance" block="distance(mm), TRIG (SCL) ECHO (SDA)."
     //% weight=100 
     export function pingmm(): number {
         
