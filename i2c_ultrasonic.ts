@@ -9,7 +9,7 @@ namespace i2cUltrasonic {
     /**
      * Read Distance from Ultrasonic Sensor.
      */
-    //% blockId="ultrasonic_read_distance" block="distance(mm), TRIG (SCL) ECHO (SDA)."
+    //% blockId="ultrasonic_read_distance" block="i2c,distance(mm)"
     //% weight=100 
     export function pingmm(): number {
         
