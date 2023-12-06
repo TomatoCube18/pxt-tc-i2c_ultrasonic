@@ -9,8 +9,8 @@ namespace tomatoCube {
     /**
      * Read Distance from Ultrasonic Sensor.
      */
-    //% subcategory=UltraSonic
-    //% blockId="ultrasonic_read_distance" block="i2c,distance(mm)"
+    //% subcategory=UltraSonic(I2C)
+    //% blockId="ultrasonic_read_distance" block="Get Distance in mm"
     //% weight=100 
     export function pingmm(): number {
         
